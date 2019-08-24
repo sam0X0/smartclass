@@ -1,5 +1,6 @@
 # SmartClass
 ClassManagementSystem
-Username : admin
+<br>
+Username : admin<br>
 Password :admin
 
