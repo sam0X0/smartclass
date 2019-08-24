@@ -1,0 +1,3399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Neodynamic.SDK.ImageDraw</name>
+    </assembly>
+    <members>
+        <member name="T:Neodynamic.SDK.LineCapStyle">
+            <summary>
+            Specifies the available cap styles used to start and end a line element.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.DistortCorners">
+            <summary>
+            Defines an action that distorts an element by changing the coordinates of the four corners defined by the element’s boundaries. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Action">
+            <summary>
+            An abstract base class that provides basic functionality for any descended action class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Action.Clone">
+            <summary>
+            When overridden in a derived class, creates an exact copy of this <see cref="T:Neodynamic.SDK.Action"></see> object.
+            </summary>
+            <returns>
+            The new <see cref="T:Neodynamic.SDK.Action"></see> object that this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.DistortCorners.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DistortCorners"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.DistortCorners.#ctor(System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DistortCorners"></see> class with the specified coordinates.
+            </summary>
+            <param name="pt1">
+            The new upper-left corner point.
+            </param>
+            <param name="pt2">
+            The new upper-right corner point.
+            </param>
+            <param name="pt3">
+            The new bottom-right corner point.
+            </param>
+            <param name="pt4">
+            The new bottom-left corner point.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.DistortCorners.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DistortCorners"></see> class with the specified coordinates.
+            </summary>
+            <param name="x1">
+            The new upper-left corner x-coordinate.
+            </param>
+            <param name="y1">
+            The new upper-left corner y-coordinate.
+            </param>
+            <param name="x2">
+            The new upper-right corner x-coordinate.
+            </param>
+            <param name="y2">
+            The new upper-right corner y-coordinate.
+            </param>
+            <param name="x3">
+            The new bottom-right corner x-coordinate.
+            </param>
+            <param name="y3">
+            The new bottom-right corner y-coordinate.
+            </param>
+            <param name="x4">
+            The new bottom-left corner x-coordinate.
+            </param>
+            <param name="y4">
+            The new bottom-left corner y-coordinate.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.DistortCorners.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.DistortCorners"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.DistortCorners"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.X1">
+            <summary>
+            Gets or sets the new upper-left corner x-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.Y1">
+            <summary>
+            Gets or sets the new upper-left corner y-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.X2">
+            <summary>
+            Gets or sets the new upper-right corner x-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.Y2">
+            <summary>
+            Gets or sets the new upper-right corner y-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.X3">
+            <summary>
+            Gets or sets the new bottom-right corner x-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.Y3">
+            <summary>
+            Gets or sets the new bottom-right corner y-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.X4">
+            <summary>
+            Gets or sets the new bottom-left corner x-coordinate.
+            </summary>        
+        </member>
+        <member name="P:Neodynamic.SDK.DistortCorners.Y4">
+            <summary>
+            Gets or sets the new bottom-left corner y-coordinate.
+            </summary>        
+        </member>
+        <member name="T:Neodynamic.SDK.Stretch">
+            <summary>
+            Defines an action that stretches an image to fit a given size. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Stretch.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Stretch"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Stretch.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Stretch"></see> class with the specified size.
+            </summary>		
+            <param name="newWidth">
+            The new image width.
+            </param>
+            <param name="newHeight">
+            The new image height.
+            </param>		
+        </member>
+        <member name="M:Neodynamic.SDK.Stretch.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Stretch"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Stretch"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Stretch.Width">
+            <summary>
+            Gets or sets the new image width.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Stretch.Height">
+            <summary>
+            Gets or sets the new image height.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.Rotate">
+            <summary>
+            Defines an action that rotates an image. When rotated, an image pivots on its center point. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Rotate.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Rotate"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Rotate.#ctor(System.Int32,System.Drawing.Drawing2D.InterpolationMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Rotate"></see> class with Rotation settings.
+            </summary>		
+            <param name="angle">
+            The rotation angle measured counterclockwise from the x-axis.
+            </param>
+            <param name="interpolationMode">
+            The interpolation mode to use.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Rotate.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Rotate"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Rotate"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Rotate.Angle">
+            <summary>
+            Gets or sets the rotation angle. It is measured counterclockwise from the x-axis.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 360. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Rotate.InterpolationMode">
+            <summary>
+            Gets or sets the interpolation mode to use
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Element">
+            <summary>
+            An abstract base class that provides basic functionality for any descended element class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Element.ToString">
+            <summary>
+            Returns the <see cref="T:System.String"></see> representation of this instance of a <see cref="T:Neodynamic.SDK.Element"></see> object.
+            </summary>
+            <returns>
+            A string that represents this <see cref="T:Neodynamic.SDK.Element"></see> object.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Element.Clone">
+            <summary>
+            When overridden in a derived class, creates an exact copy of this <see cref="T:Neodynamic.SDK.Element"></see> object.
+            </summary>
+            <returns>
+            The new <see cref="T:Neodynamic.SDK.Element"></see> object that this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Element.GetSizeAfterActions">
+            <summary>
+            Calculates the new size of the element after applying the actions onto it.
+            </summary>
+            <returns>
+            The new size of the element after applying the actions onto it.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.X">
+            <summary>
+            Gets or sets the x-coordinate of the left side of the element
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.Y">
+            <summary>
+            Gets or sets the y-coordinate of the top side of the element
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.Name">
+            <summary>
+            Gets or sets the string identifying the element. The element's name should be unique throughout the scope of the current output composite image.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.Width">
+            <summary>
+            Gets or sets the width of the element.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.Height">
+            <summary>
+            Gets or sets the height of the element.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Element.Actions">
+            <summary>
+            Gets the <see cref="T:Neodynamic.SDK.Action"></see> objects that will applied on this <see cref="T:Neodynamic.SDK.Element"></see> object.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustGamma">
+            <summary>
+            Defines an action that adjusts the gamma correction value of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustGamma.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustGamma"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustGamma.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustGamma"></see> class with a Gamma correction value.
+            </summary>
+            <param name="gamma">
+            The Gamma correction. Values range from -100 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustGamma.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustGamma"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustGamma"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustGamma.Gamma">
+            <summary>
+            Gets or sets the Gamma correction value. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.Fill">
+            <summary>
+            Defines a Fill object used to paint the interior of the given graphical element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Fill"></see> class. 
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.#ctor(System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Fill"></see> class which fill type is Solid. 
+            </summary>
+            <param name="backgroundColor">
+            The background color.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.#ctor(System.Drawing.Drawing2D.HatchStyle,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Fill"></see> class which fill type is Pattern. 
+            </summary>
+            <param name="pattern">
+            The pattern or hatch style.
+            </param>
+            <param name="backgroundColor">
+            The background color.
+            </param>
+            <param name="foregroundColor">
+            The foreground color.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.#ctor(System.Drawing.Color,System.Drawing.Color,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Fill"></see> class which fill type is Gradient. 
+            </summary>
+            <param name="gradientColor1">
+            The starting color of the gradient.
+            </param>
+            <param name="gradientColor2">
+            The ending color of the gradient.
+            </param>
+            <param name="gradientAngle">
+            The orientation angle of the gradient. It is measured counterclockwise from the x-axis.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.#ctor(System.String,System.Drawing.Drawing2D.WrapMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Fill"></see> class which fill type is Texture. 
+            </summary>
+            <param name="backgroundTextureUrl">
+            The image URL with which this Fill object paints interiors.
+            </param>
+            <param name="wrapMode">
+            A <see cref="T:System.Drawing.Drawing2D.WrapMode"></see> enumeration that specifies how this Fill object is tiled. 
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.ToString">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Fill"></see> object to a string representation, using the current <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Fill"></see> object in the current culture.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.ToString(System.Globalization.CultureInfo)">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Fill"></see> object to a string representation, using the specified <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <param name="culture">
+            A <see cref="T:System.Globalization.CultureInfo"></see> that contains the culture to represent the <see cref="T:Neodynamic.SDK.Fill"></see>. 
+            </param>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Fill"></see> object in the specified culture.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Fill.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Fill"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Fill"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.Type">
+            <summary>
+            Gets or sets the fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.BackgroundColor">
+            <summary>
+            Gets or sets the background color used by Solid and Pattern fill types.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.ForegroundColor">
+            <summary>
+            Gets or sets the foreground color used by Pattern fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.Pattern">
+            <summary>
+            Gets or sets the pattern or hatch style used by Pattern fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.GradientColor1">
+            <summary>
+            Gets or sets the starting color used by Gradient fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.GradientColor2">
+            <summary>
+            Gets or sets the ending color used by Gradient fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.GradientAngle">
+            <summary>
+            Gets or sets the orientation angle used by Gradient fill type. It is measured counterclockwise from the x-axis.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.BackgroundTextureUrl">
+            <summary>
+            Gets or sets the image URL to fill the interior of a surface used by Texture fill type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Fill.WrapMode">
+            <summary>
+            Gets or sets a <see cref="T:System.Drawing.Drawing2D.WrapMode"></see> enumeration that indicates the wrap mode for Texture fill type.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.FillType">
+            <summary>
+            Specifies the Fill type to use.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FillType.Solid">
+            <summary>
+            Specifies a Solid Fill type.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FillType.Gradient">
+            <summary>
+            Specifies a Gradient Fill type.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FillType.Texture">
+            <summary>
+            Specifies a Texture Fill type.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FillType.Pattern">
+            <summary>
+            Specifies a Pattern Fill type.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustHue">
+            <summary>
+            Defines an action that adjusts the Hue channel of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHue.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustHue"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHue.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustHue"></see> class with a hue angle.
+            </summary>
+            <param name="angle">
+            The Hue angle. Values range from -180 to 180.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHue.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustHue"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustHue"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustHue.Angle">
+            <summary>
+            Gets or sets the Hue angle. Values range from -180 to 180.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -180 to 180. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustBrightness">
+            <summary>
+            Defines an action that adjusts the brightness level of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustBrightness.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustBrightness"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustBrightness.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustBrightness"></see> class with a Brightness Level.
+            </summary>
+            <param name="level">
+            The Brightness Level. Values range from -100 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustBrightness.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustBrightness"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustBrightness"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustBrightness.Level">
+            <summary>
+            Gets or sets the Brightness Level. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.PerspectiveShadow">
+            <summary>
+            Defines an action that adds perspective shadows to an element. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveShadow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveShadow"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveShadow.#ctor(System.Int32,System.Drawing.Color,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveShadow"></see> class with shadow settings.
+            </summary>
+            <param name="length">
+            The length of the perspective shadow
+            </param>
+            <param name="color">
+            The color of the shadow
+            </param>
+            <param name="widthPercentage">
+            The width percentage of the perspective shadow based on the element's width
+            </param>
+            <param name="angle">
+            The direction of the shadow
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveShadow.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.PerspectiveShadow"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.PerspectiveShadow"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.Length">
+            <summary>
+            Gets or sets the length of the perspective shadow
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.Color">
+            <summary>
+            Gets or sets the color of the perspective shadow
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.WidthPercentage">
+            <summary>
+            Gets or sets the width percentage of the perspective shadow based on the element's width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.Angle">
+            <summary>
+            Gets or sets the direction of the perspective shadow. It is measured counterclockwise from the x-axis.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 360. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.OffsetY">
+            <summary>
+            Gets or sets the Y-axis offset value for the perspective shadow.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.Opacity">
+            <summary>
+            Gets or sets the percentage of transparency in the shadow
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveShadow.Softness">
+            <summary>
+            Gets or sets the sharpness of the shadow
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.ImageDraw">
+            <summary>
+            Neodynamic ImageDraw generates composite images to your .NET applications.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ImageDraw"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.GetOutputImage">
+            <summary>
+            Returns a <see cref="T:System.Drawing.Bitmap"></see> object of the output image. The image format will be the specified by <see cref="P:Neodynamic.SDK.ImageDraw.ImageFormat"></see> property.
+            </summary>
+            <returns>
+            A <see cref="T:System.Drawing.Bitmap"></see> object representing the output image generated by this <b>ImageDraw</b> object.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.GetOutputImageBinary">
+            <summary>
+            Returns a byte array of the output image. The image format will be the specified by <see cref="P:Neodynamic.SDK.ImageDraw.ImageFormat"></see> property.
+            </summary>
+            <returns>
+            A byte array representing the output image generated by this <b>ImageDraw</b> object.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.GetDraftImage">
+            <summary>
+            Returns a <see cref="T:System.Drawing.Bitmap"></see> object of the draft image.
+            </summary>
+            <returns>
+            A <see cref="T:System.Drawing.Bitmap"></see> object representing the draft image generated by this <b>ImageDraw</b> object.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.Save(System.String)">
+            <summary>
+            Saves the output image to the specified file. The image format will be the specified by <see cref="P:Neodynamic.SDK.ImageDraw.ImageFormat"></see> property.
+            </summary>
+            <param name="fileName">
+            A string that contains the name of the file to which to save the output image. 
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.Save(System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Saves the output image to the specified file in the specified format.
+            </summary>
+            <param name="fileName">
+            A string that contains the name of the file to which to save the output image. 
+            </param>
+            <param name="format">
+            The <see cref="T:System.Drawing.Imaging.ImageFormat"></see> object for the output image. 
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.Save(System.IO.Stream)">
+            <summary>
+            Saves the output image to the specified stream. The image format will be the specified by <see cref="P:Neodynamic.SDK.ImageDraw.ImageFormat"></see> property.
+            </summary>
+            <param name="stream">
+            The <see cref="T:System.IO.Stream"></see> where the image will be saved.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.Save(System.IO.Stream,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Saves the output image to the specified stream in the specified format.
+            </summary>
+            <param name="stream">
+            The <see cref="T:System.IO.Stream"></see> where the image will be saved.
+            </param>
+            <param name="format">
+            The <see cref="T:System.Drawing.Imaging.ImageFormat"></see> object for the output image. 
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.GetXmlTemplate">
+            <summary>
+            Gets an XML Template for the composite image.
+            </summary>
+            <returns>
+            An XML Template for the composite image.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageDraw.LoadXmlTemplate(System.String)">
+            <summary>
+            Restores the composite image based on data in the specified XML Template.
+            </summary>
+            <param name="xmlTemplate">
+            An XML Template for restoring the composite image.
+            </param>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.LicenseOwner">
+            <summary>
+            Gets or sets the License Owner you receive when purchasing a licensed version of ImageDraw.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.LicenseKey">
+            <summary>
+            Gets or sets the License Key you receive when purchasing a licensed version of ImageDraw.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.Canvas">
+            <summary>
+            Gets the image canvas. Represents the surface on which <b>Element</b> objects are drawn.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.Elements">
+            <summary>
+            Gets a collection of <see cref="T:Neodynamic.SDK.Element"></see> objects representing the individual elements within the control.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.ImageFormat">
+            <summary>
+            Gets or sets the image format to render. MIME possible values: Gif, Jpeg, Bmp, and Png.
+            </summary>		
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.JpegCompressionLevel">
+            <summary>
+            Gets or sets the JPEG Compression Level that must be applied when the output image format is JPEG. Possible values: integer number between 0 and 100. A quality level of 0 corresponds to the greatest compression, and a quality level of 100 corresponds to the least compression.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageDraw.ColorDepth">
+            <summary>
+            Gets or sets the pixel format (a.k.a. color depth) that defines the number of bits within each pixel (a.k.a. bpp). If the output image format is GIF, then the Color Depth value will be ignored because GIF images are always saved using an 8 bits-per-pixel.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Filmstrip">
+            <summary>
+            Defines an action that creates a Filmstrip representation of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Filmstrip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Filmstrip"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Filmstrip.#ctor(System.Int32,System.Int32,Neodynamic.SDK.Fill,System.Int32,System.Drawing.Color,System.Int32,Neodynamic.SDK.FilmstripOrientation)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Filmstrip"></see> class with Filmstrip settings.
+            </summary>
+            <param name="width">
+            The width of the filmstrip
+            </param>
+            <param name="height">
+            The height of the filmstrip
+            </param>
+            <param name="background">
+            The background of the filmstrip
+            </param>
+            <param name="perforationWidth">
+            The perforations width of the filmstrip
+            </param>
+            <param name="perforationColor">
+            The perforations color of the filmstrip
+            </param>
+            <param name="roundness">
+            The corner roundness of the filmstrip content
+            </param>
+            <param name="orientation">
+            The orientation of the filmstrip
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Filmstrip.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Filmstrip"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Filmstrip"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.Width">
+            <summary>
+            Gets or sets the width of the filmstrip
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.Height">
+            <summary>
+            Gets or sets the height of the filmstrip
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.Background">
+            <summary>
+            Gets the background of the filmstrip
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.PerforationWidth">
+            <summary>
+            Gets or sets the perforations width of the filmstrip
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.PerforationColor">
+            <summary>
+            Gets or sets the perforations color of the filmstrip
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.Roundness">
+            <summary>
+            Gets or sets the corner roundness of the filmstrip content
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Filmstrip.Orientation">
+            <summary>
+            Gets or sets the orientation of the filmstrip
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.FilmstripOrientation">
+            <summary>
+            Specifies the orientation of a Filmstrip
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FilmstripOrientation.Horizontal">
+            <summary>
+            Specifies the a horizontal orientation for a Filmstrip
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FilmstripOrientation.Vertical">
+            <summary>
+            Specifies the a vertical orientation for a Filmstrip
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ActionCollection">
+            <summary>
+            Provides a collection of <see cref="T:Neodynamic.SDK.Action"></see> objects that will be applied on an <see cref="T:Neodynamic.SDK.Element"></see> object. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ActionCollection"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.Add(Neodynamic.SDK.Action)">
+            <summary>
+            Appends the specified <see cref="T:Neodynamic.SDK.Action"></see> to the end of the collection.
+            </summary>
+            <param name="action">
+            The <see cref="T:Neodynamic.SDK.Action"></see> to append to the collection. 
+            </param>
+            <returns>
+            The index position of the appended <see cref="T:Neodynamic.SDK.Action"></see>.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.Clear">
+            <summary>
+            Removes all <see cref="T:Neodynamic.SDK.Action"></see> objects from the collection.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.Contains(Neodynamic.SDK.Action)">
+            <summary>
+            Determines whether the collection contains the specified <see cref="T:Neodynamic.SDK.Action"></see>.
+            </summary>
+            <param name="action">
+            An <see cref="T:Neodynamic.SDK.Action"></see> to search for in the collection.
+            </param>
+            <returns>
+            <b>true</b> if the collection contains the specified <see cref="T:Neodynamic.SDK.Action"></see>; otherwise, <b>false</b>.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.IndexOf(Neodynamic.SDK.Action)">
+            <summary>
+            Determines the index value that represents the position of the specified <see cref="T:Neodynamic.SDK.Action"></see> in the collection.
+            </summary>
+            <param name="action">
+            An <see cref="T:Neodynamic.SDK.Action"></see> to search for in the collection.
+            </param>
+            <returns>
+            The index position of the specified <see cref="T:Neodynamic.SDK.Action"></see> in the collection.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.Insert(System.Int32,Neodynamic.SDK.Action)">
+            <summary>
+            Inserts the specified <see cref="T:Neodynamic.SDK.Action"></see> in the collection at the specified index location.
+            </summary>
+            <param name="index">
+            The location in the collection to insert the <see cref="T:Neodynamic.SDK.Action"></see>. 
+            </param>
+            <param name="action">
+            The <see cref="T:Neodynamic.SDK.Action"></see> to add to the collection.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the <see cref="T:Neodynamic.SDK.Action"></see> at the specified index from the collection.
+            </summary>
+            <param name="index">
+            The index of the <see cref="T:Neodynamic.SDK.Action"></see> to remove.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.Remove(Neodynamic.SDK.Action)">
+            <summary>
+            Removes the specified <see cref="T:Neodynamic.SDK.Action"></see> from the collection.
+            </summary>
+            <param name="action">
+            The <see cref="T:Neodynamic.SDK.Action"></see> to remove from the collection.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.GetEnumerator">
+            <summary>
+            Returns a <see cref="T:System.Collections.IEnumerator"></see> implemented object that contains all <see cref="T:Neodynamic.SDK.Action"></see> objects in the <see cref="T:Neodynamic.SDK.ActionCollection"></see>.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.IEnumerator"></see> implemented object that contains all <see cref="T:Neodynamic.SDK.Action"></see> objects in the <see cref="T:Neodynamic.SDK.ActionCollection"></see>.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ActionCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the items from the <see cref="T:Neodynamic.SDK.ActionCollection"></see> to the specified <see cref="T:System.Array"></see>, starting with the specified index.
+            </summary>
+            <param name="array">
+            A zero-based <see cref="T:System.Array"></see> that receives the copied items from the <see cref="T:Neodynamic.SDK.ActionCollection"></see>.
+            </param>
+            <param name="index">
+            The first index in the specified <see cref="T:System.Array"></see> to receive the items. 
+            </param>
+        </member>
+        <member name="P:Neodynamic.SDK.ActionCollection.Item(System.Int32)">
+            <summary>
+            Gets an <see cref="T:Neodynamic.SDK.Action"></see> at the specified index in the collection.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ActionCollection.Count">
+            <summary>
+            Gets the number of <see cref="T:Neodynamic.SDK.Action"></see> objects in the collection.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ActionCollection.IsSynchronized">
+            <summary>
+            Gets a value indicating whether access to the <see cref="T:Neodynamic.SDK.ActionCollection"></see> is synchronized (thread-safe).
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ActionCollection.SyncRoot">
+            <summary>
+            Gets the object that can be used to synchronize access to the <see cref="T:Neodynamic.SDK.ActionCollection"></see>.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.TextElement">
+            <summary>
+            Represents a text element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.TextElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.TextElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.TextElement.#ctor(System.String,Neodynamic.SDK.Font,System.Drawing.Color,System.Drawing.Color,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.TextElement"></see> class with text settings.
+            </summary>
+            <param name="text">
+            The text associated with this <see cref="T:Neodynamic.SDK.TextElement"></see> object.
+            </param>
+            <param name="font">
+            The <see cref="T:Neodynamic.SDK.Font"></see> object to use.
+            </param>
+            <param name="foreColor">
+            The foreground color of the text.
+            </param>
+            <param name="strokeColor">
+            The color of the border along the outline of the text.
+            </param>
+            <param name="strokeWidth">
+            The width of the border along the outline of the text.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.TextElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.TextElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.TextElement"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.Text">
+            <summary>
+            Gets or sets the text associated with this <see cref="T:Neodynamic.SDK.TextElement"></see> object.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.NullDisplayText">
+            <summary>
+            Gets or sets the text displayed for a field when the field's value is null.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.ConvertEmptyStringToNull">
+            <summary>
+            Gets or sets a value indicating whether empty string values ("") are automatically converted to null values when the data field is updated in the data source.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.Font">
+            <summary>
+            Gets the <see cref="T:Neodynamic.SDK.Font"></see> object for the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.ForeColor">
+            <summary>
+            Gets or sets the foreground color of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.StrokeColor">
+            <summary>
+            Gets or sets the color of the border along the outline of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.StrokeWidth">
+            <summary>
+            Gets or sets the width of the border along the outline of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.AutoSize">
+            <summary>
+            Gets or sets whether this <see cref="T:Neodynamic.SDK.TextElement"></see> object is automatically resized to display its entire contents.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.Multiline">
+            <summary>
+            Gets or sets whether the text can span more than one line.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.TextQuality">
+            <summary>
+            Gets or sets the quality of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.TextElement.TextAlignment">
+            <summary>
+            Gets or sets the alignment of the text.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.MakeTransparent">
+            <summary>
+            Defines an action that makes transparent color for an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.MakeTransparent.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MakeTransparent"></see> class making all white pixel transparent.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.MakeTransparent.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MakeTransparent"></see> class making the first pixel of an image as the transparent color if the specified parameter is true.
+            </summary>
+            <param name="useFirstPixel">
+            Specifies whether the first pixel color of an image will be used as the transparent color
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.MakeTransparent.#ctor(System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MakeTransparent"></see> class making the specified color as the transparent color.
+            </summary>
+            <param name="color">
+            The transparent color
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.MakeTransparent.#ctor(System.Drawing.Color,System.Byte)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MakeTransparent"></see> class making the specified color and the specified alpha component value as the transparent color
+            </summary>
+            <param name="color">
+            The transparent color
+            </param>
+            <param name="alpha">
+            The alpha component value of the transparent color
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.MakeTransparent.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.MakeTransparent"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.MakeTransparent"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.MakeTransparent.Color">
+            <summary>
+            Gets or sets the transparent color
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MakeTransparent.Alpha">
+            <summary>
+            Gets or sets the alpha component value of the transparent color
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MakeTransparent.UseFirstPixel">
+            <summary>
+            Gets or sets whether the first pixel color of an image will be used as the transparent color
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MakeTransparent.ColorTolerance">
+            <summary>
+            Gets or sets the color tolerance for transparency. Color Tolerance represents the tonal range of colors that will be converted to transparent taking the specified color as starting point. If you enter 0, only adjacent pixels of exactly the same tone as the specified color will be converted to transparent; otherwise, a wider range of tones will be converted.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.DecorativeBorder">
+            <summary>
+            Defines an action that adds decorative border to an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.DecorativeBorder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DecorativeBorder"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.DecorativeBorder.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DecorativeBorder"></see> class with the specified width.
+            </summary>
+            <param name="width">
+            The border width.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.DecorativeBorder.#ctor(System.Int32,System.Drawing.Drawing2D.DashStyle,Neodynamic.SDK.Fill)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DecorativeBorder"></see> class with the specified settings.
+            </summary>
+            <param name="width">
+            The border width.
+            </param>
+            <param name="dashStyle">
+            The border dash style.
+            </param>
+            <param name="fill">
+            The border fill.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.DecorativeBorder.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.DecorativeBorder"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.DecorativeBorder"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.DecorativeBorder.Width">
+            <summary>
+            Gets or sets the border width.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            The specified value is less than 0.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.DecorativeBorder.DashStyle">
+            <summary>
+            Gets or sets the border dash style.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.DecorativeBorder.Fill">
+            <summary>
+            Gets the border's fill style.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.MailStamp">
+            <summary>
+            Defines an action that creates a mail stamp representation of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.MailStamp.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MailStamp"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.MailStamp.#ctor(System.Int32,System.Int32,Neodynamic.SDK.Padding,System.Drawing.Color,Neodynamic.SDK.Fill,System.Int32,System.Int32,System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.MailStamp"></see> class width mail stamp settings.
+            </summary>
+            <param name="width">
+            The mail stamp width
+            </param>
+            <param name="height">
+            The mail stamp height
+            </param>
+            <param name="imagePadding">
+            The amount of space to insert between the image and its margin in the mail stamp
+            </param>
+            <param name="imageBorderColor">
+            The border color around the image
+            </param>
+            <param name="background">
+            The mail stamp background
+            </param>
+            <param name="perforationWidth">
+            The perforations width of the mail stamp
+            </param>
+            <param name="perforationHeight">
+            The perforations height of the mail stamp
+            </param>
+            <param name="perforationBorderColor">
+            The border color of the perforations
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.MailStamp.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.MailStamp"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.MailStamp"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.Width">
+            <summary>
+            Gets or sets the mail stamp width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.Height">
+            <summary>
+            Gets or sets the mail stamp height
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.Background">
+            <summary>
+            Gets the mail stamp background
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.ImagePadding">
+            <summary>
+            Gets the amount of space to insert between the image and its margin in the mail stamp.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.ImageBorderColor">
+            <summary>
+            Gets or sets the border color around the image
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.PerforationBorderColor">
+            <summary>
+            Gets or sets the border color of the perforations
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.PerforationWidth">
+            <summary>
+            Gets or sets perforations width of the mail stamp
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.MailStamp.PerforationHeight">
+            <summary>
+            Gets or sets the perforations height of the mail stamp
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.ElementCollection">
+            <summary>
+            Provides a collection of <see cref="T:Neodynamic.SDK.Element"></see> objects.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ElementCollection"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.Add(Neodynamic.SDK.Element)">
+            <summary>
+            Appends the specified <see cref="T:Neodynamic.SDK.Element"></see> to the end of the collection.
+            </summary>
+            <param name="element">
+            The <see cref="T:Neodynamic.SDK.Element"></see> to append to the collection. 
+            </param>
+            <returns>
+            The index position of the appended <see cref="T:Neodynamic.SDK.Element"></see>.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.Clear">
+            <summary>
+            Removes all <see cref="T:Neodynamic.SDK.Element"></see> objects from the collection.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.Contains(Neodynamic.SDK.Element)">
+            <summary>
+            Determines whether the collection contains the specified <see cref="T:Neodynamic.SDK.Element"></see>.
+            </summary>
+            <param name="element">
+            An <see cref="T:Neodynamic.SDK.Element"></see> to search for in the collection.
+            </param>
+            <returns>
+            <b>true</b> if the collection contains the specified <see cref="T:Neodynamic.SDK.Element"></see>; otherwise, <b>false</b>.
+            </returns>    
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.IndexOf(Neodynamic.SDK.Element)">
+            <summary>
+            Determines the index value that represents the position of the specified <see cref="T:Neodynamic.SDK.Element"></see> in the collection.
+            </summary>
+            <param name="element">
+            An <see cref="T:Neodynamic.SDK.Element"></see> to search for in the collection.
+            </param>
+            <returns>
+            The index position of the specified <see cref="T:Neodynamic.SDK.Element"></see> in the collection.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.Insert(System.Int32,Neodynamic.SDK.Element)">
+            <summary>
+            Inserts the specified <see cref="T:Neodynamic.SDK.Element"></see> in the collection at the specified index location.
+            </summary>
+            <param name="index">
+            The location in the collection to insert the <see cref="T:Neodynamic.SDK.Element"></see>. 
+            </param>
+            <param name="element">
+            The <see cref="T:Neodynamic.SDK.Element"></see> to add to the collection.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.RemoveAt(System.Int32)">
+            <summary>
+            Removes the <see cref="T:Neodynamic.SDK.Element"></see> at the specified index from the collection.
+            </summary>
+            <param name="index">
+            The index of the <see cref="T:Neodynamic.SDK.Element"></see> to remove.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.Remove(Neodynamic.SDK.Element)">
+            <summary>
+            Removes the specified <see cref="T:Neodynamic.SDK.Element"></see> from the collection.
+            </summary>
+            <param name="element">
+            The <see cref="T:Neodynamic.SDK.Element"></see> to remove from the collection.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.GetEnumerator">
+            <summary>
+            Returns a <see cref="T:System.Collections.IEnumerator"></see> implemented object that contains all <see cref="T:Neodynamic.SDK.Element"></see> objects in the <see cref="T:Neodynamic.SDK.ElementCollection"></see>.
+            </summary>
+            <returns>
+            A <see cref="T:System.Collections.IEnumerator"></see> implemented object that contains all <see cref="T:Neodynamic.SDK.Element"></see> objects in the <see cref="T:Neodynamic.SDK.ElementCollection"></see>.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ElementCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies the items from the <see cref="T:Neodynamic.SDK.ElementCollection"></see> to the specified <see cref="T:System.Array"></see>, starting with the specified index.
+            </summary>
+            <param name="array">
+            A zero-based <see cref="T:System.Array"></see> that receives the copied items from the <see cref="T:Neodynamic.SDK.ElementCollection"></see>.
+            </param>
+            <param name="index">
+            The first index in the specified <see cref="T:System.Array"></see> to receive the items. 
+            </param>
+        </member>
+        <member name="P:Neodynamic.SDK.ElementCollection.Item(System.Int32)">
+            <summary>
+            Gets an <see cref="T:Neodynamic.SDK.Element"></see> at the specified index in the collection.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ElementCollection.Item(System.String)">
+            <summary>
+            Gets the first <see cref="T:Neodynamic.SDK.Element"></see> in the collection which name is equal to the specified.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ElementCollection.Count">
+            <summary>
+            Gets the number of <see cref="T:Neodynamic.SDK.Element"></see> objects in the collection.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ElementCollection.IsSynchronized">
+            <summary>
+            Gets a value indicating whether access to the <see cref="T:Neodynamic.SDK.ElementCollection"></see> is synchronized (thread-safe).
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ElementCollection.SyncRoot">
+            <summary>
+            Gets the object that can be used to synchronize access to the <see cref="T:Neodynamic.SDK.ElementCollection"></see>.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ConvertToNegative">
+            <summary>
+            Defines an action that converts an image to negative. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToNegative.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ConvertToNegative"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToNegative.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.ConvertToNegative"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.ConvertToNegative"></see>.
+            </returns>
+        </member>
+        <member name="T:Neodynamic.SDK.CameraView">
+            <summary>
+            Defines an action that simulates the camera view on an element. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.CameraView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.CameraView"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.CameraView.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.CameraView"></see> class with the specified elevation and azimuth angles.
+            </summary>
+            <param name="elevation">
+            The vertical rotation angle of a camera's sight line relative to the center point of an element.
+            </param>
+            <param name="azimuth">
+            The horizontal rotation angle of a camera's sight line relative to the center point of an element.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.CameraView.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.CameraView"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.CameraView"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.CameraView.Elevation">
+            <summary>
+            Gets or sets the vertical rotation angle of a camera's sight line relative to the center point of an element.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -180 to 180. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.CameraView.Azimuth">
+            <summary>
+            Gets or sets the horizontal rotation angle of a camera's sight line relative to the center point of an element.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -180 to 180. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.Resize">
+            <summary>
+            Defines an action that changes the size of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Resize.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Resize"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Resize.#ctor(System.Int32,System.Int32,Neodynamic.SDK.LockAspectRatio,System.Drawing.Drawing2D.InterpolationMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Resize"></see> class with Resize settings.
+            </summary>		
+            <param name="newWidth">
+            The new image width
+            </param>
+            <param name="newHeight">
+            The new image height
+            </param>
+            <param name="lockAspectRatio">
+            A <see cref="T:Neodynamic.SDK.LockAspectRatio"></see> object that specifies how element's proportions are maintained
+            </param>
+            <param name="interpolationMode">
+            The interpolation mode to use
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Resize.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Resize"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Resize"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Resize.Width">
+            <summary>
+            Gets or sets the new image width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Resize.Height">
+            <summary>
+            Gets or sets the new image height
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Resize.InterpolationMode">
+            <summary>
+            Gets or sets the interpolation mode to use
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Resize.LockAspectRatio">
+            <summary>
+            Gets or sets how element's proportions are maintained
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.LockAspectRatio">
+            <summary>
+            Specifies how element's proportions are maintained.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LockAspectRatio.None">
+            <summary>
+            Specifies that element's proportions are not maintained.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LockAspectRatio.WidthBased">
+            <summary>
+            Specifies that element's proportions are maintained based on the new width value.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LockAspectRatio.HeightBased">
+            <summary>
+            Specifies that element's proportions are maintained based on the new height value.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LockAspectRatio.Fit">
+            <summary>
+            Specifies that element's proportions are maintained based on the new width and height values.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Padding">
+            <summary>
+            Represents padding information
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Padding.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Padding"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Padding.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Padding"></see> class using the supplied padding size for all edges.
+            </summary>
+            <param name="all">
+            The number of pixels to be used for padding for all edges.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Padding.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Padding"></see> class using a separate padding size for each edge.
+            </summary>
+            <param name="left">
+            The padding size, in pixels, for the left edge.
+            </param>
+            <param name="top">
+            The padding size, in pixels, for the top edge.
+            </param>
+            <param name="right">
+            The padding size, in pixels, for the right edge.
+            </param>
+            <param name="bottom">
+            The padding size, in pixels, for the bottom edge.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Padding.ToString">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Padding"></see> object to a string representation, using the current <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Padding"></see> object in the current culture.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Padding.ToString(System.Globalization.CultureInfo)">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Padding"></see> object to a string representation, using the specified <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <param name="culture">
+            A <see cref="T:System.Globalization.CultureInfo"></see> that contains the culture to represent the <see cref="T:Neodynamic.SDK.Padding"></see>. 
+            </param>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Padding"></see> object in the specified culture.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Padding.Left">
+            <summary>
+            Gets or sets the padding value for the left edge.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Padding.Right">
+            <summary>
+            Gets or sets the padding value for the right edge.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Padding.Top">
+            <summary>
+            Gets or sets the padding value for the top edge.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Padding.Bottom">
+            <summary>
+            Gets or sets the padding value for the bottom edge.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.GlassTable">
+            <summary>
+            It defines an action that creates a glass table effect on an image. The glass table effect adds a reflection of an image just below it. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.GlassTable.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.GlassTable"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.GlassTable.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.GlassTable"></see> class with the specified reflection settings.
+            </summary>
+            <param name="reflectionOpacity">
+            The percentage of transparency in the reflection.
+            </param>
+            <param name="reflectionPercentage">
+            The percentage of the image height that will be reflected.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.GlassTable.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.GlassTable"></see> class with the specified reflection settings.
+            </summary>
+            <param name="reflectionLocationX">
+            The x-coordinate of the left side of the reflection image.
+            </param>
+            <param name="reflectionLocationY">
+            The y-coordinate of the top side of the reflection image.
+            </param>
+            <param name="reflectionOpacity">
+            The percentage of transparency in the reflection.
+            </param>
+            <param name="reflectionPercentage">
+            The percentage of the image height that will be reflected.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.GlassTable.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.GlassTable"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.GlassTable"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.GlassTable.ReflectionLocation">
+            <summary>
+            Gets or sets how the reflection of the image will be positioned. If it is <see cref="F:Neodynamic.SDK.ReflectionLocation.Auto"></see>, then the reflection will be positioned just below of the image based on its dimensions; otherwise, the reflection position must be specified by <see cref="P:Neodynamic.SDK.GlassTable.ReflectionLocationX"></see> and <see cref="P:Neodynamic.SDK.GlassTable.ReflectionLocationY"></see> properties.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.GlassTable.ReflectionLocationX">
+            <summary>
+            Gets or sets the x-coordinate of the left side of the reflection image.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.GlassTable.ReflectionLocationY">
+            <summary>
+            Gets or sets the y-coordinate of the top side of the reflection image.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.GlassTable.ReflectionOpacity">
+            <summary>
+            Gets or sets the percentage of transparency in the reflection
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.GlassTable.ReflectionPercentage">
+            <summary>
+            Gets or sets the percentage of the image height that will be reflected.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.ReflectionLocation">
+            <summary>
+            Specifies how the reflection of the image will be positioned.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ReflectionLocation.Auto">
+            <summary>
+            The reflection will be positioned just below of the image based on its dimensions.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ReflectionLocation.Custom">
+            <summary>
+            The reflection position must be specified by <see cref="P:Neodynamic.SDK.GlassTable.ReflectionLocationX"></see> and <see cref="P:Neodynamic.SDK.GlassTable.ReflectionLocationY"></see> properties.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.FontConverter">
+            <summary>
+            Converts <see cref="T:Neodynamic.SDK.Font"></see> objects from one data type to another. Access the <b>FontConverter</b> class through the <b>TypeDescriptor</b> object.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.DropShadow">
+            <summary>
+            Defines an action that adds drop shadows to an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.DropShadow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DropShadow"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.DropShadow.#ctor(System.Int32,System.Drawing.Color,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.DropShadow"></see> class with the specified settings.
+            </summary>
+            <param name="distance">
+            The distance of the shadow from the object
+            </param>
+            <param name="color">
+            The color of the shadow
+            </param>
+            <param name="opacity">
+            The percentage of transparency in the shadow
+            </param>
+            <param name="softness">
+            The sharpness of the shadow
+            </param>
+            <param name="angle">
+            The direction of the shadow
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.DropShadow.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.DropShadow"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.DropShadow"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.DropShadow.Distance">
+            <summary>
+            Gets or sets the distance of the shadow from the object
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.DropShadow.Color">
+            <summary>
+            Gets or sets the color of the shadow
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.DropShadow.Opacity">
+            <summary>
+            Gets or sets the percentage of transparency in the shadow
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.DropShadow.Softness">
+            <summary>
+            Gets or sets the sharpness of the shadow
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.DropShadow.Angle">
+            <summary>
+            Gets or sets the direction of the shadow. It is measured counterclockwise from the x-axis.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Crop">
+            <summary>
+            Defines an action that crops a rectangular section from an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Crop.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Crop"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Crop.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Crop"></see> class with the specified rectangular section.
+            </summary>
+            <param name="x">
+            The x-coordinate of the cropping section.
+            </param>
+            <param name="y">
+            The y-coordinate of the cropping section.
+            </param>
+            <param name="width">
+            The width of the cropping section.
+            </param>
+            <param name="height">
+            The height of the cropping section.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Crop.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Crop"></see> class with the specified size. Cropping will be centered.
+            </summary>
+            <param name="width">
+            The width of the cropping section.
+            </param>
+            <param name="height">
+            The height of the cropping section.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Crop.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Crop"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Crop"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Crop.Width">
+            <summary>
+            Gets or sets the width of the cropping rectangle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Crop.Height">
+            <summary>
+            Gets or sets the height of the cropping rectangle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Crop.X">
+            <summary>
+            Gets or sets the x-coordinate of the cropping rectangle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Crop.Y">
+            <summary>
+            Gets or sets the y-coordinate of the cropping rectangle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Crop.Center">
+            <summary>
+            Gets or sets whether to perform centered cropping.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Polaroid">
+            <summary>
+            Defines an action that creates a polaroid representation of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Polaroid.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Polaroid"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Polaroid.#ctor(System.Int32,System.Int32,Neodynamic.SDK.Padding,System.Drawing.Color,Neodynamic.SDK.Fill,System.Drawing.Color,System.Int32,Neodynamic.SDK.Font,System.Drawing.Color,System.String,System.Drawing.Text.TextRenderingHint,System.Drawing.StringAlignment)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Polaroid"></see> class with polaroid settings.
+            </summary>
+            <param name="width">
+            The polaroid width
+            </param>
+            <param name="height">
+            The polaroid height
+            </param>
+            <param name="imagePadding">
+            The amount of space to insert between the image and its margin in the polaroid
+            </param>
+            <param name="imageBorderColor">
+            The border color around the image
+            </param>
+            <param name="background">
+            The polaroid background
+            </param>
+            <param name="borderColor">
+            The polaroid border color
+            </param>
+            <param name="roundness">
+            The corner roundness
+            </param>
+            <param name="font">
+            The font of the text
+            </param>
+            <param name="foreColor">
+            The color of the text
+            </param>
+            <param name="text">
+            The polaroid text or caption
+            </param>
+            <param name="textQuality">
+            The quality of the text
+            </param>
+            <param name="textAlignment">
+            The alignment of the text
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Polaroid.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Polaroid"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Polaroid"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Width">
+            <summary>
+            Gets or sets the polaroid width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Height">
+            <summary>
+            Gets or sets the polaroid height
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to one.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Background">
+            <summary>
+            Gets the polaroid background
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.ImagePadding">
+            <summary>
+            Gets the amount of space to insert between the image and its margin in the polaroid.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.ImageBorderColor">
+            <summary>
+            Gets or sets the border color around the image
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.BorderColor">
+            <summary>
+            Gets or sets the polaroid border color
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Roundness">
+            <summary>
+            Gets or sets the corner roundness
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.ForeColor">
+            <summary>
+            Gets or sets the color of the text
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Text">
+            <summary>
+            Gets or sets the polaroid text or caption
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.TextQuality">
+            <summary>
+            Gets or sets the quality of the text
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.TextAlignment">
+            <summary>
+            Gets or sets the alignment of the text
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Polaroid.Font">
+            <summary>
+            Gets the font of the text
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ImageElement">
+            <summary>
+            Represents an image element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ImageElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromUrl(System.String)">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified URL string.
+            </summary>
+            <param name="url">
+            A URL string that points to the file from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromFile(System.String)">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified file.
+            </summary>
+            <param name="fileName">
+            A string that contains the name of the file from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromBase64(System.String)">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified Base64 string.
+            </summary>
+            <param name="base64">
+            A Base64 string from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromBinary(System.Byte[])">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified byte array.
+            </summary>
+            <param name="binaryContent">
+            A byte array from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromBinary(System.Byte[],System.Int32)">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified byte array and offset.
+            </summary>
+            <param name="binaryContent">
+            A byte array from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <param name="binaryContentOffset">
+            The number of bytes that must be skipped on the specified byte array.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.FromImage(System.Drawing.Image)">
+            <summary>
+            Creates an <see cref="T:Neodynamic.SDK.ImageElement"></see> object from the specified <see cref="T:System.Drawing.Image"></see> object.
+            </summary>
+            <param name="image">
+            <see cref="T:System.Drawing.Image"></see> from which to create the <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </param>
+            <returns>
+            The <see cref="T:Neodynamic.SDK.ImageElement"></see> object this method creates.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.ImageElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.ImageElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.ImageElement"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.Source">
+            <summary>
+            Gets or sets the image source type for this <see cref="T:Neodynamic.SDK.ImageElement"></see> object.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.SourceFile">
+            <summary>
+            Gets or sets the image file path or URL.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.SourceBase64">
+            <summary>
+            Gets or sets the Base64 string of the image content.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.SourceBinary">
+            <summary>
+            Gets or sets the binary content of the image.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.SourceBinaryOffset">
+            <summary>
+            Gets or sets the number of bytes that must be skipped on the source image when generating the image based on the <see cref="P:Neodynamic.SDK.ImageElement.SourceBinary"></see> property
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.SourceImage">
+            <summary>
+            Gets or sets the content of the image.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ImageElement.NullImageUrl">
+            <summary>
+            Gets or sets the image file path or URL which will be displayed when the specified source image cannot be accessed or when the value of the field specified by any Data Binding properties are null references (Nothing in Visual Basic).
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ImageSource">
+            <summary>
+            Specifies the source for an <see cref="T:Neodynamic.SDK.ImageElement"></see> object
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageSource.File">
+            <summary>
+            The image content must be get from a path or URL
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageSource.Base64String">
+            <summary>
+            The image content must be get from a Base64 string
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageSource.Binary">
+            <summary>
+            The image content must be get from a Byte array
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageSource.Image">
+            <summary>
+            The image content must be get from a System.Drawing.Image object
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Font">
+            <summary>
+            Encapsulates the font properties of text.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Font"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.#ctor(System.String,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Font"></see> class with the specified font name and size.
+            </summary>
+            <param name="name">
+            The name of the font.
+            </param>
+            <param name="size">
+            The size of the font measured in Points.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.#ctor(System.String,System.Single,Neodynamic.SDK.FontUnit)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Font"></see> class with the specified font name, size and unit of measure.
+            </summary>
+            <param name="name">
+            The name of the font.
+            </param>
+            <param name="size">
+            The size of the font.
+            </param>
+            <param name="unit">
+            The unit of measure for the font.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.#ctor(System.String,System.Int32,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Font"></see> class with the specified custom font file and size.
+            </summary>
+            <param name="customFontFile">
+            The custom font file to use. It can be specified as a relative URL or full path pointing out to the custom font file on local disk or; as an identifier stored in the appSettings section of Web.config file.
+            </param>
+            <param name="customFontFileFamilyIndex">
+            The Font Family index of the type faces defined by the specified Custom Font File.
+            </param>
+            <param name="size">
+            The size of the font measured in Points.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.#ctor(System.String,System.Int32,System.Single,Neodynamic.SDK.FontUnit)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Font"></see> class with the specified custom font file, size and unit of measure.
+            </summary>
+            <param name="customFontFile">
+            The custom font file to use. It can be specified as a relative URL or full path pointing out to the custom font file on local disk or; as an identifier stored in the appSettings section of Web.config file.
+            </param>
+            <param name="customFontFileFamilyIndex">
+            The Font Family index of the type faces defined by the specified Custom Font File.
+            </param>
+            <param name="size">
+            The size of the font measured in Points.
+            </param>
+            <param name="unit">
+            The unit of measure for the font.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.ToString">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Font"></see> object to a string representation, using the current <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Font"></see> object in the current culture.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Font.ToString(System.Globalization.CultureInfo)">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Font"></see> object to a string representation, using the specified <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <param name="culture">
+            A <see cref="T:System.Globalization.CultureInfo"></see> that contains the culture to represent the <see cref="T:Neodynamic.SDK.Font"></see>. 
+            </param>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Font"></see> object in the specified culture.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Name">
+            <summary>
+            Gets or sets the face name of this <see cref="T:Neodynamic.SDK.Font"></see> object.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Size">
+            <summary>
+            Gets or sets the size of this <see cref="T:Neodynamic.SDK.Font"></see> object.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Bold">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Neodynamic.SDK.Font"></see> object is bold.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Italic">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Neodynamic.SDK.Font"></see> object is italic.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Underline">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Neodynamic.SDK.Font"></see> object is underlined.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Strikeout">
+            <summary>
+            Gets or sets a value that indicates whether this <see cref="T:Neodynamic.SDK.Font"></see> object specifies a horizontal line through the font.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.Unit">
+            <summary>
+            Gets or sets the unit of measure for this <see cref="T:Neodynamic.SDK.Font"></see> object.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.CustomFontFile">
+            <summary>
+            Gets or sets the custom font file to use for this <see cref="T:Neodynamic.SDK.Font"></see> object. It can be specified as a relative URL or full path pointing out to the custom font file on local disk or; as an identifier stored in the appSettings section of Application's Configuration *.config file.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Font.CustomFontFileFamilyIndex">
+            <summary>
+            Gets or sets the Font Family index of the type faces defined by the specified Custom Font File.
+            </summary>        
+        </member>
+        <member name="T:Neodynamic.SDK.FontUnit">
+            <summary>
+            Specifies the unit of measure for Font objects.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FontUnit.Inch">
+            <summary>
+            Specifies the inch as the unit of measure.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FontUnit.Millimeter">
+            <summary>
+            Specifies the millimeter as the unit of measure.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FontUnit.Pixel">
+            <summary>
+            Specifies the pixel as the unit of measure.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FontUnit.Point">
+            <summary>
+            Specifies the point (1/72 inch) as the unit of measure.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustOpacity">
+            <summary>
+            Defines an action that adjusts the opacity level of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustOpacity.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustOpacity"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustOpacity.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustOpacity"></see> class with a Opacity Level.
+            </summary>
+            <param name="opacity">
+            The Opacity Level. Values range from 0 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustOpacity.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustOpacity"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustOpacity"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustOpacity.Opacity">
+            <summary>
+            Gets or sets the Opacity Level. Values range from 0 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.Skew">
+            <summary>
+            Defines an action that skews an element. Skewing an element transforms it by slanting it along the horizontal or vertical axis. When skewed, an element pivots on its origin point. This class cannot be inherited. 
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Skew.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Skew"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Skew.#ctor(Neodynamic.SDK.SkewType,Neodynamic.SDK.SkewOrientation,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Skew"></see> class with the specified skewing type, orientation and angle.
+            </summary>
+            <param name="type">
+            The skewing type
+            </param>
+            <param name="orientation">
+            The skewing orientation
+            </param>
+            <param name="angle">
+            The skewing angle
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Skew.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Skew"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Skew"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Skew.Type">
+            <summary>
+            Gets or sets the skewing type.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Skew.Orientation">
+            <summary>
+            Gets or sets the skewing orientation.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Skew.Angle">
+            <summary>
+            Gets or sets the skewing angle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -45 to 45. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Skew.ConstrainProportions">
+            <summary>
+            Gets or sets whether maintaing the same proportions as the original.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.SkewType">
+            <summary>
+            Specifies the shape used to skew an element.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.SkewType.Parallelogram">
+            <summary>
+            Specifies skewing an element to the shape of a parallelogram.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.SkewType.Trapezoid">
+            <summary>
+            Specifies skewing an element to the shape of a trapezoid.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.SkewOrientation">
+            <summary>
+            Specifies the direction used to skew an element.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.SkewOrientation.Horizontal">
+            <summary>
+            Specifies a horizontal skewing.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.SkewOrientation.Vertical">
+            <summary>
+            Specifies a vertical skewing.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Silhouette">
+            <summary>
+            Defines an action that creates a Silhouette of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Silhouette.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Silhouette"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Silhouette.#ctor(System.Drawing.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Silhouette"></see> class with the specified color.
+            </summary>
+             <param name="color">
+             The Silhouette color.
+             </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Silhouette.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Silhouette"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Silhouette"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Silhouette.Color">
+            <summary>
+            Gets or sets the Silhouette color.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Flip">
+            <summary>
+            Defines an action that flips an image across its vertical or horizontal axis. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Flip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Flip"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Flip.#ctor(Neodynamic.SDK.FlipType)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Flip"></see> class with the specified direction.
+            </summary>
+            <param name="type">
+            The flip orientation.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Flip.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Flip"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Flip"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Flip.Type">
+            <summary>
+            Gets or sets direction used to flip an image
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.FlipType">
+            <summary>
+            Specifies the direction used to flip an image
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FlipType.Horizontal">
+            <summary>
+            Specifies a horizontal flip
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.FlipType.Vertical">
+            <summary>
+            Specifies a vertical flip
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ConvertToGrayscale">
+            <summary>
+            Defines an action that converts an image to grayscale. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToGrayscale.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:Neodynamic.SDK.ConvertToGrayScale"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToGrayscale.Clone">
+            <summary>
+            Creates a copy of the current <see cref="!:Neodynamic.SDK.ConvertToGrayScale"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="!:Neodynamic.SDK.ConvertToGrayScale"></see>.
+            </returns>
+        </member>
+        <member name="T:Neodynamic.SDK.PaddingConverter">
+            <summary>
+            Converts <see cref="T:Neodynamic.SDK.Padding"></see> objects from one data type to another. Access the <b>PaddingConverter</b> class through the <b>TypeDescriptor</b> object.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ImageDrawFormat">
+            <summary>
+            Specifies the format of the output image.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageDrawFormat.Bmp">
+            <summary>
+            Specifies the format of the output image is BMP (Bitmap).
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageDrawFormat.Gif">
+            <summary>
+            Specifies the format of the output image is GIF (Graphics Interchange Format).
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageDrawFormat.Jpeg">
+            <summary>
+            Specifies the format of the output image is JPEG (Joint Photographic Experts Group).
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ImageDrawFormat.Png">
+            <summary>
+            Specifies the format of the output image is PNG (Portable Network Graphics).
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ColorDepth">
+            <summary>
+            Specifies the format of the color data for each pixel in the output image.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ColorDepth.Format16bpp">
+            <summary>
+            Specifies that the format is 16 bits per pixel.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ColorDepth.Format24bpp">
+            <summary>
+            Specifies that the format is 24 bits per pixel.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ColorDepth.Format32bpp">
+            <summary>
+            Specifies that the format is 32 bits per pixel.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.ColorDepth.Format32bppAlpha">
+            <summary>
+            Specifies that the format is 32 bits per pixel with alpha channel support.
+            </summary>
+        </member>        
+        <member name="T:Neodynamic.SDK.LineOrientation">
+            <summary>
+            Specifies the orientation for line shape elements.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LineOrientation.Horizontal">
+            <summary>
+            Specifies a horizontal line.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LineOrientation.Vertical">
+            <summary>
+            Specifies a vertical line.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LineOrientation.DiagonalUp">
+            <summary>
+            Specifies a diagonal upward line.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.LineOrientation.DiagonalDown">
+            <summary>
+            Specifies a diagonal downward line.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.PerspectiveView">
+            <summary>
+            Defines an action that simulates a perspective view of an element. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveView"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveView.#ctor(Neodynamic.SDK.PerspectiveOrientation,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveView"></see> class with the specified perspective view orientation and angle.
+            </summary>
+            <param name="orientation">
+            The perspective view orientation.
+            </param>
+            <param name="angle">
+            The perspective view angle.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveView.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.PerspectiveView"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.PerspectiveView"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveView.Orientation">
+            <summary>
+            Gets or sets the perspective view orientation.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveView.Angle">
+            <summary>
+            Gets or sets the perspective view angle.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 90. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.PerspectiveOrientation">
+            <summary>
+            Specifies the prespective view orientation.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.PerspectiveOrientation.LeftToRight">
+            <summary>
+            Specifies the horizontal perspective orientation by setting up the vanishing point at the left of an element.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.PerspectiveOrientation.RightToLeft">
+            <summary>
+            Specifies the horizontal perspective orientation by setting up the vanishing point at the right of an element.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.PerspectiveOrientation.TopToBottom">
+            <summary>
+            Specifies the vertical perspective orientation by setting up the vanishing point at the top of an element.
+            </summary>
+        </member>
+        <member name="F:Neodynamic.SDK.PerspectiveOrientation.BottomToTop">
+            <summary>
+            Specifies the vertical perspective orientation by setting up the vanishing point at the bottom of an element.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustHSL">
+            <summary>
+            Defines an action that adjusts the Hue channel, saturation, and lightness levels of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHSL.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustHSL"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHSL.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustHSL"></see> class with a hue angle.
+            </summary>
+            <param name="hue">
+            The Hue angle. Values range from -180 to 180.
+            </param>
+            <param name="saturation">
+            The Saturation Level. Values range from -100 to 100.
+            </param>
+            <param name="lightness">
+            The Lightness Level. Values range from -100 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustHSL.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustHSL"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustHSL"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustHSL.Hue">
+            <summary>
+            Gets or sets the Hue angle. Values range from -180 to 180.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -180 to 180. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustHSL.Saturation">
+            <summary>
+            Gets or sets the Saturation Level. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustHSL.Lightness">
+            <summary>
+            Gets or sets the Lightness Level. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.ShapeElement">
+            <summary>
+            An abstract base class that provides basic functionality for any descended shape element class.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.Text">
+            <summary>
+            Gets or sets the text associated with this <see cref="T:Neodynamic.SDK.ShapeElement"></see> object.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.Font">
+            <summary>
+            Gets the <see cref="T:Neodynamic.SDK.Font"></see> object for the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextForeColor">
+            <summary>
+            Gets or sets the foreground color of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextStrokeColor">
+            <summary>
+            Gets or sets the color of the border along the outline of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextStrokeWidth">
+            <summary>
+            Gets or sets the width of the border along the outline of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextQuality">
+            <summary>
+            Gets or sets the quality of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextAlignment">
+            <summary>
+            Gets or sets the alignment of the text.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.TextPadding">
+            <summary>
+            Gets the amount of space around text in a shape.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.StrokeWidth">
+            <summary>
+            Gets or sets the border width.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            The specified value is less than 0.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.StrokeDashStyle">
+            <summary>
+            Gets or sets the border dash style.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.StrokeLineJoinStyle">
+            <summary>
+            Gets or sets the join style for the ends of two consecutive segments in a figure or shape.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.StrokeFill">
+            <summary>
+            Gets the border's fill style.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.Roundness">
+            <summary>
+            Gets or sets the shape roundness
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.NullDisplayText">
+            <summary>
+            Gets or sets the text displayed for a field when the field's value is null.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ShapeElement.ConvertEmptyStringToNull">
+            <summary>
+            Gets or sets a value indicating whether empty string values ("") are automatically converted to null values when the data field is updated in the data source.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.ClosedShapeElement">
+            <summary>
+            An abstract base class that provides basic functionality for any descended closed shape element class.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.ClosedShapeElement.Fill">
+            <summary>
+            Gets the shape's fill style.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.PolygonShapeElement">
+            <summary>
+            Represents a polygon shape element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PolygonShapeElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PolygonShapeElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PolygonShapeElement.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PolygonShapeElement"></see> class with the specified number of sides.
+            </summary>
+            <param name="sides">
+            The number of sides of the polygon shape.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.PolygonShapeElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.PolygonShapeElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.PolygonShapeElement"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.PolygonShapeElement.Sides">
+            <summary>
+            Gets or sets the number of sides of the polygon shape.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to three. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.StarShapeElement">
+            <summary>
+            Represents a star shape element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.StarShapeElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.StarShapeElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.StarShapeElement.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.StarShapeElement"></see> class with the specified number of points of the star shape.
+            </summary>
+            <param name="points">
+            The number of points of the star shape
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.StarShapeElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.StarShapeElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.StarShapeElement"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.StarShapeElement.Points">
+            <summary>
+            Gets or sets the number of points of the star shape.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to three. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.StarShapeElement.InnerRadiusPercentage">
+            <summary>
+            Gets or sets the inner radius percentage of the star shape.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 1 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.LineShapeElement">
+            <summary>
+            Represents a line shape element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.LineShapeElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.LineShapeElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.LineShapeElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.LineShapeElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.LineShapeElement"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.LineShapeElement.Orientation">
+            <summary>
+            Gets or sets the line orientation.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.LineShapeElement.StartLineCap">
+            <summary>
+            Gets or sets the cap style used to start a line element.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.LineShapeElement.EndLineCap">
+            <summary>
+            Gets or sets the cap style used to end a line element.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.LineShapeElement.StartLineCapWidth">
+            <summary>
+            Gets or sets the width of the cap style used to start a line element.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to two.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.LineShapeElement.EndLineCapWidth">
+            <summary>
+            Gets or sets the width of the cap style used to end a line element.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to two.
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.RectangleShapeElement">
+            <summary>
+            Represents a rectangle shape element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RectangleShapeElement.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.RectangleShapeElement"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RectangleShapeElement.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.RectangleShapeElement"></see> class with the specified size.
+            </summary>
+            <param name="width">
+            The width of the rectangle shape.
+            </param>
+            <param name="height">
+            The height of the rectangle shape.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.RectangleShapeElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.RectangleShapeElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.RectangleShapeElement"></see>.
+            </returns>
+        </member>
+        <member name="T:Neodynamic.SDK.OvalShapeElement">
+            <summary>
+            Represents an oval shape element.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.OvalShapeElement.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.OvalShapeElement"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.OvalShapeElement"></see>.
+            </returns>
+        </member>        
+        <member name="T:Neodynamic.SDK.FillConverter">
+            <summary>
+            Converts <see cref="T:Neodynamic.SDK.Fill"></see> objects from one data type to another. Access the <b>FillConverter</b> class through the <b>TypeDescriptor</b> object.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.CanvasConverter">
+            <summary>
+            Converts <see cref="T:Neodynamic.SDK.Canvas"></see> objects from one data type to another. Access the <b>CanvasConverter</b> class through the <b>TypeDescriptor</b> object.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Canvas">
+            <summary>
+            Represents the surface on which <see cref="T:Neodynamic.SDK.Element"></see> objects are drawn.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Canvas.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Canvas"></see> class. 
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Canvas.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Canvas"></see> class with the specified size.
+            </summary>
+            <param name="width">
+            The width of the canvas
+            </param>
+            <param name="height">
+            The height of the canvas
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Canvas.#ctor(System.Int32,System.Int32,Neodynamic.SDK.Fill,System.Boolean,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Canvas"></see> class with the specified canvas' settings.
+            </summary>
+            <param name="width">
+            The width of the canvas
+            </param>
+            <param name="height">
+            The height of the canvas
+            </param>
+            <param name="fill">
+            Canvas' fill represented by a <see cref="T:Neodynamic.SDK.Fill"></see>
+            </param>
+            <param name="autoSize">
+            Set to <b>true</b> in order canvas can expand or contract to the size of the contents represented by <see cref="T:Neodynamic.SDK.Element"></see> objects; otherwise, <b>false</b>. 
+            </param>
+            <param name="centerElements">
+            Set to <b>true</b> in order all elements on canvas are centered; otherwise, <b>false</b>.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Canvas.ToString">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Canvas"></see> object to a string representation, using the current <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Canvas"></see> object in the current culture.
+            </returns>
+        </member>
+        <member name="M:Neodynamic.SDK.Canvas.ToString(System.Globalization.CultureInfo)">
+            <summary>
+            Converts the <see cref="T:Neodynamic.SDK.Canvas"></see> object to a string representation, using the specified <see cref="T:System.Globalization.CultureInfo"></see>.
+            </summary>
+            <param name="culture">
+            A <see cref="T:System.Globalization.CultureInfo"></see> that contains the culture to represent the <see cref="T:Neodynamic.SDK.Canvas"></see>. 
+            </param>
+            <returns>
+            The string representation of the <see cref="T:Neodynamic.SDK.Canvas"></see> object in the specified culture.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Canvas.Width">
+            <summary>
+            Gets or sets canvas' width.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            The specified value is less than 1.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Canvas.Height">
+            <summary>
+            Gets or sets canvas' height.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            The specified value is less than 1.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Canvas.Fill">
+            <summary>
+            Gets canvas' fill.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Canvas.AutoSize">
+            <summary>
+            Gets or sets whether canvas expands or contracts to the size of the contents represented by <see cref="T:Neodynamic.SDK.Element"></see> objects
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.Canvas.CenterElements">
+            <summary>
+            Gets or sets whether all elements onto canvas will be centered or not.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.Scale">
+            <summary>
+            Defines an action that enlarges or reduces the size of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Scale.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Scale"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.Scale.#ctor(System.Int32,System.Int32,System.Drawing.Drawing2D.InterpolationMode)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.Scale"></see> class with Scale settings.
+            </summary>		
+            <param name="widthPercentage">
+            The new image width based on a percentage of the original width.
+            </param>
+            <param name="heightPercentage">
+            The new image height based on a percentage of the original height.
+            </param>
+            <param name="interpolationMode">
+            The interpolation mode to use.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.Scale.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.Scale"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.Scale"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.Scale.WidthPercentage">
+            <summary>
+            Gets or sets the new image width based on a percentage of the original width.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Scale.HeightPercentage">
+            <summary>
+            Gets or sets the new image height based on a percentage of the original height.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero.
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.Scale.InterpolationMode">
+            <summary>
+            Gets or sets the interpolation mode to use.
+            </summary>
+        </member>
+        <member name="T:Neodynamic.SDK.RoundCorners">
+            <summary>
+            Defines an action that rounds image corners. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RoundCorners.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.RoundCorners"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RoundCorners.#ctor(System.Int32,System.Drawing.Color,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.RoundCorners"></see> class with round settings.
+            </summary>
+             <param name="roundness">
+             The corner roundness
+             </param>
+             <param name="borderColor">
+             The border color
+             </param>
+             <param name="BorderWidth">
+             The border width
+             </param>
+        </member>
+        <member name="M:Neodynamic.SDK.RoundCorners.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.RoundCorners"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.RoundCorners"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.RoundCorners.Roundness">
+            <summary>
+            Gets or sets the corner roundness
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.RoundCorners.BorderColor">
+            <summary>
+            Gets or sets the border color
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.RoundCorners.BorderWidth">
+            <summary>
+            Gets or sets the border width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.RemoveTransparency">
+            <summary>
+            Defines an action that removes transparent pixels from an element and automatically resizes it. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RemoveTransparency.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.RemoveTransparency"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.RemoveTransparency.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.RemoveTransparency"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.RemoveTransparency"></see>.
+            </returns>
+        </member>
+        <member name="T:Neodynamic.SDK.GaussianBlur">
+            <summary>
+            Defines an action that softens the look of an element. Gaussian Blur applies a weighted average of blur to each pixel producing a hazy effect. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.GaussianBlur.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.GaussianBlur"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.GaussianBlur.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.GaussianBlur"></see> class with the specified radius.
+            </summary>
+            <param name="radius">
+            The strength of the blur effect.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.GaussianBlur.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.GaussianBlur"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.GaussianBlur"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.GaussianBlur.Radius">
+            <summary>
+            Gets or sets the strength of the blur effect.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 1 to 50. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustContrast">
+            <summary>
+            Defines an action that adjusts the contrast level of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustContrast.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustContrast"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustContrast.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustContrast"></see> class with a Contrast Level.
+            </summary>
+            <param name="level">
+            The Contrast Level. Values range from -100 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustContrast.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustContrast"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustContrast"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustContrast.Level">
+            <summary>
+            Gets or sets the Contrast Level. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.AdjustSaturation">
+            <summary>
+            Defines an action that adjusts the saturation level of an image. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustSaturation.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustSaturation"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustSaturation.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.AdjustSaturation"></see> class with a Saturation Level.
+            </summary>
+            <param name="level">
+            The Saturation Level. Values range from -100 to 100.
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.AdjustSaturation.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.AdjustSaturation"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.AdjustSaturation"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.AdjustSaturation.Level">
+            <summary>
+            Gets or sets the Saturation Level. Values range from -100 to 100.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from -100 to 100. 
+            </exception>
+        </member>
+        <member name="T:Neodynamic.SDK.ConvertToSepia">
+            <summary>
+            Defines an action that converts an image to sepia. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToSepia.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.ConvertToSepia"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.ConvertToSepia.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.ConvertToSepia"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.ConvertToSepia"></see>.
+            </returns>
+        </member>
+        <member name="T:Neodynamic.SDK.PerspectiveReflection">
+            <summary>
+            Defines an action that adds perspective reflection to an element. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveReflection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveReflection"></see> class.
+            </summary>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveReflection.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Neodynamic.SDK.PerspectiveReflection"></see> class with reflection settings.
+            </summary>
+            <param name="length">
+            The length of the perspective reflection
+            </param>
+            <param name="widthPercentage">
+            The width percentage of the perspective reflection based on the element's width
+            </param>
+            <param name="angle">
+            The direction of the reflection
+            </param>
+        </member>
+        <member name="M:Neodynamic.SDK.PerspectiveReflection.Clone">
+            <summary>
+            Creates a copy of the current <see cref="T:Neodynamic.SDK.PerspectiveReflection"></see>.
+            </summary>
+            <returns>
+            A copy of the current <see cref="T:Neodynamic.SDK.PerspectiveReflection"></see>.
+            </returns>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveReflection.Length">
+            <summary>
+            Gets or sets the length of the perspective reflection
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveReflection.WidthPercentage">
+            <summary>
+            Gets or sets the width percentage of the perspective reflection based on the element's width
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not greater than or equal to zero. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveReflection.Angle">
+            <summary>
+            Gets or sets the direction of the perspective reflection. It is measured counterclockwise from the x-axis.
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 360. 
+            </exception>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveReflection.OffsetY">
+            <summary>
+            Gets or sets the Y-axis offset value for the perspective reflection.
+            </summary>
+        </member>
+        <member name="P:Neodynamic.SDK.PerspectiveReflection.Opacity">
+            <summary>
+            Gets or sets the percentage of transparency in the reflection
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The specified value is not range from 0 to 100.
+            </exception>
+        </member>
+    </members>
+</doc>

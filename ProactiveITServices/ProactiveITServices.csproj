@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00C2C026-2C06-496B-924F-436C136B1E97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProactiveITServices</RootNamespace>
+    <AssemblyName>ProactiveITServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Neodynamic.SDK.ImageDraw">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\ImageDrawBusinessCardGenWindowsAppCS\bin\Debug\Neodynamic.SDK.ImageDraw.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="billing.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="course.Designer.cs">
+      <DependentUpon>course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fees.Designer.cs">
+      <DependentUpon>fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feeslist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>feeslist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm2bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm2bill.Designer.cs">
+      <DependentUpon>frm2bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmback.Designer.cs">
+      <DependentUpon>frmback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcard.Designer.cs">
+      <DependentUpon>frmcard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcontact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcontact.Designer.cs">
+      <DependentUpon>frmcontact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdashboard.Designer.cs">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmfee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfee.Designer.cs">
+      <DependentUpon>frmfee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmflash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmflash.Designer.cs">
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsetup.Designer.cs">
+      <DependentUpon>frmsetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstdview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstdview.Designer.cs">
+      <DependentUpon>frmstdview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icard.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icard.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proactiveDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proactiveDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="proactiveDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>proactiveDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="softsetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="softsetup.Designer.cs">
+      <DependentUpon>softsetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stdlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stdlist.Designer.cs">
+      <DependentUpon>stdlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentfees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentfees.Designer.cs">
+      <DependentUpon>studentfees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view.Designer.cs">
+      <DependentUpon>view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentReg.Designer.cs">
+      <DependentUpon>StudentReg.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="course.resx">
+      <DependentUpon>course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fees.resx">
+      <DependentUpon>fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2bill.resx">
+      <DependentUpon>frm2bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmback.resx">
+      <DependentUpon>frmback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcard.resx">
+      <DependentUpon>frmcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcontact.resx">
+      <DependentUpon>frmcontact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdashboard.resx">
+      <DependentUpon>frmdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfee.resx">
+      <DependentUpon>frmfee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmflash.resx">
+      <DependentUpon>frmflash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsetup.resx">
+      <DependentUpon>frmsetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstdview.resx">
+      <DependentUpon>frmstdview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="softsetup.resx">
+      <DependentUpon>softsetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student.rdlc" />
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="stdlist.resx">
+      <DependentUpon>stdlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentfees.resx">
+      <DependentUpon>studentfees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view.resx">
+      <DependentUpon>view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StudentReg.resx">
+      <DependentUpon>StudentReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="billing.xsc">
+      <DependentUpon>billing.xsd</DependentUpon>
+    </None>
+    <None Include="billing.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>billing.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="billing.xss">
+      <DependentUpon>billing.xsd</DependentUpon>
+    </None>
+    <None Include="feeslist.xsc">
+      <DependentUpon>feeslist.xsd</DependentUpon>
+    </None>
+    <None Include="feeslist.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>feeslist.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="feeslist.xss">
+      <DependentUpon>feeslist.xsd</DependentUpon>
+    </None>
+    <None Include="icard.xsc">
+      <DependentUpon>icard.xsd</DependentUpon>
+    </None>
+    <None Include="icard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icard.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="icard.xss">
+      <DependentUpon>icard.xsd</DependentUpon>
+    </None>
+    <None Include="proactiveDataSet.xsc">
+      <DependentUpon>proactiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proactiveDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proactiveDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proactiveDataSet.xss">
+      <DependentUpon>proactiveDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="proactiveDataSet1.xsc">
+      <DependentUpon>proactiveDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="proactiveDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>proactiveDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="proactiveDataSet1.xss">
+      <DependentUpon>proactiveDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choclate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-background-wallpapers_1366x768_86343.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit__5807365674.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifioff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifioff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searching.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-person-add_211872.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-person-add_2118721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addstd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact-us.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

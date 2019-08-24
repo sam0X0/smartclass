@@ -1,0 +1,412 @@
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+c:\users\administrator\documents\visual studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\ProactiveITServices4\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(view)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\view\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.feesrcd.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)\ProactiveITServices\obj\Debug\ProactiveITServices.courseview.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete) - Copy - Copy - Copy - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(delete)fees\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\proactiveit services\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemail)\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(withemailreport1)\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(with atsfessrpt)\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making)\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making)\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making)\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(setup making) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.Dashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.Form1.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(report) -\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmdashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.dll
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.xml
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmlogin.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmback.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Resources.frmcard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmcard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(sending email) - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.dll
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.xml
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmback.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmcard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmdashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmlogin.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmstdview.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data\ProactiveITServices\obj\Debug\ProactiveITServices.frmflash.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.dll
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.xml
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmback.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmcard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmdashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmflash.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmstdview.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.frmlogin.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\ProactiveITServices(icard genrate data - Copy\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.dll
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.xml
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmback.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmcard.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmdashboard.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmflash.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmstdview.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmlogin.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\visual studio 2012\Projects\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\ProactiveITServices.pdb
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\bin\Debug\Neodynamic.SDK.ImageDraw.xml
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.csprojResolveAssemblyReference.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.course.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.fees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frm2bill.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmback.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmcard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmcontact.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmdashboard.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmfee.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmflash.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmstdview.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.softsetup.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.stdlist.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.studentfees.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.view.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.frmlogin.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.Properties.Resources.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.StudentReg.resources
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.cache
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.compiled
