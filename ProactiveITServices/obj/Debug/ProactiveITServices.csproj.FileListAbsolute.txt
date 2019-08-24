@@ -410,3 +410,6 @@ C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(
 C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\ProactiveITServices.csproj.GenerateResource.Cache
 C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.cache
 C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\ProactiveITServices(icard genrate data - Copychanges\ProactiveITServices\obj\Debug\RdlCompile.compiled
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\SmartClass\ProactiveITServices\bin\Debug\ProactiveITServices.exe.config
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\SmartClass\ProactiveITServices\obj\Debug\ProactiveITServices.exe
+C:\Users\Suganga\Documents\Visual Studio 2012\Projects\shri\SmartClass\ProactiveITServices\obj\Debug\ProactiveITServices.pdb
